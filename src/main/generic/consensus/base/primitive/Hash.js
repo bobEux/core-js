@@ -346,7 +346,7 @@ Hash.Algorithm.fromString = function (str) {
         case 'sha512': return Hash.Algorithm.SHA512;
     }
     throw new Error('Invalid string');
-}
+};
 
 /**
  * @type {Map<Hash.Algorithm, number>}
